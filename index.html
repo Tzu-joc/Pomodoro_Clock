@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Clock - 30 Minute Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="timer-wrapper">
+            <div class="timer-circle">
+                <svg class="progress-ring" viewBox="0 0 300 300" preserveAspectRatio="xMidYMid meet">
+                    <circle class="progress-ring-background" cx="150" cy="150" r="140" />
+                    <circle class="progress-ring-circle" cx="150" cy="150" r="140" />
+                </svg>
+                <div class="timer-display">
+                    <div class="time" id="time" role="timer" aria-live="polite" aria-atomic="true">30:00</div>
+                    <div class="status" id="status" aria-live="polite" aria-atomic="true">Ready to start</div>
+                </div>
+            </div>
+            
+            <div class="controls" role="group" aria-label="Timer controls">
+                <button class="btn btn-primary" id="startBtn" aria-label="Start timer">
+                    <span class="btn-icon" aria-hidden="true">▶</span>
+                    <span class="btn-text">Start</span>
+                </button>
+                <button class="btn btn-secondary" id="pauseBtn" disabled aria-label="Pause timer">
+                    <span class="btn-icon" aria-hidden="true">⏸</span>
+                    <span class="btn-text">Pause</span>
+                </button>
+                <button class="btn btn-secondary" id="resetBtn" aria-label="Reset timer">
+                    <span class="btn-icon" aria-hidden="true">↻</span>
+                    <span class="btn-text">Reset</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
