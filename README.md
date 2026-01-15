@@ -5,6 +5,10 @@ A beautiful, minimal 30-minute Pomodoro timer built with vanilla HTML, CSS, and 
 ![Pomodoro Clock](https://img.shields.io/badge/Status-Complete-success)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
+## 🌐 Live Demo
+
+**👉 [View Live on GitHub Pages](https://Tzu-joc.github.io/Pomodoro_Clock/)**
+
 ## ✨ Features
 
 - ⏱️ **30-minute timer** - Perfect for focused work sessions
