@@ -12,12 +12,12 @@ A minimal, clean, and visually stunning 30-minute Pomodoro timer web application
 - **30-minute timer**: Default Pomodoro session duration
 - **Start/Pause controls**: Toggle timer state
 - **Reset functionality**: Return to initial 30:00 state
-- **Visual progress indicator**: Circular progress ring showing elapsed time
+- **Visual progress indicator**: static Circular showing elapsed time
 - **Status display**: Shows current timer state (Ready to start, Focus time, Paused, Time's up!)
 
 ### Visual Design
 - **Modern gradient background**: Dark theme with smooth color transitions
-- **Circular progress ring**: SVG-based animated progress indicator
+- **Circular progress ring**: SVG-based animated static indicator
 - **Clean typography**: Large, readable time display with tabular numbers
 - **Smooth animations**: Transitions and hover effects for better UX
 - **Responsive design**: Adapts to mobile and desktop screens
